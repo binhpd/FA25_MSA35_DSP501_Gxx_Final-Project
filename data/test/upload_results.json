@@ -1,0 +1,21 @@
+{
+  "total": 2,
+  "success": 2,
+  "failed": 0,
+  "songs": [
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/chiec-khan-gio-am_test1.mp3",
+      "song_name": "chiec_khan_gio_am_test1",
+      "fingerprints": 12605,
+      "message": "Song 'chiec_khan_gio_am_test1' added successfully with 12605 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/thu-cuoi-sample-1.mp3",
+      "song_name": "thu_cuoi_sample_1",
+      "fingerprints": 9125,
+      "message": "Song 'thu_cuoi_sample_1' added successfully with 9125 fingerprints"
+    }
+  ]
+}

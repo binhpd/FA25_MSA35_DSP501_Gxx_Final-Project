@@ -1,0 +1,35 @@
+{
+  "total": 4,
+  "success": 4,
+  "failed": 0,
+  "songs": [
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Chiếc Khăn Gió Ấm.mp3",
+      "song_name": "Chiếc_Khăn_Gió_Ấm",
+      "fingerprints": 536709,
+      "message": "Song 'Chiếc_Khăn_Gió_Ấm' added successfully with 536709 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Có Chắc Yêu Là Đây.mp3",
+      "song_name": "Có_Chắc_Yêu_Là_Đây",
+      "fingerprints": 470811,
+      "message": "Song 'Có_Chắc_Yêu_Là_Đây' added successfully with 470811 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Happy Birthday To You.mp3",
+      "song_name": "Happy_Birthday_To_You",
+      "fingerprints": 74456,
+      "message": "Song 'Happy_Birthday_To_You' added successfully with 74456 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Thu Cuối.mp3",
+      "song_name": "Thu_Cuối",
+      "fingerprints": 571090,
+      "message": "Song 'Thu_Cuối' added successfully with 571090 fingerprints"
+    }
+  ]
+}

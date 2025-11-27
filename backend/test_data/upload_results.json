@@ -1,0 +1,28 @@
+{
+  "total": 3,
+  "success": 3,
+  "failed": 0,
+  "songs": [
+    {
+      "success": true,
+      "file": "test_data/test_song_1.wav",
+      "song_name": "test song 1",
+      "fingerprints": 1252,
+      "message": "Song 'test song 1' added successfully with 1252 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "test_data/test_song_2.wav",
+      "song_name": "test song 2",
+      "fingerprints": 2368,
+      "message": "Song 'test song 2' added successfully with 2368 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "test_data/test_song_3.wav",
+      "song_name": "test song 3",
+      "fingerprints": 6166,
+      "message": "Song 'test song 3' added successfully with 6166 fingerprints"
+    }
+  ]
+}
