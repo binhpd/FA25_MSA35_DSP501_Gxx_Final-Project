@@ -1,6 +1,6 @@
 {
-  "total": 4,
-  "success": 4,
+  "total": 9,
+  "success": 9,
   "failed": 0,
   "songs": [
     {
@@ -19,10 +19,45 @@
     },
     {
       "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Dường như ta đã.mp3",
+      "song_name": "Du_o_ng_nhu_ta_đa",
+      "fingerprints": 662993,
+      "message": "Song 'Du_o_ng_nhu_ta_đa' added successfully with 662993 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/FMP_C7_Audio_Beatles_ActNaturally_63-3_73-4.mp3",
+      "song_name": "FMP_C7_Audio_Beatles_ActNaturally_63_3_73_4",
+      "fingerprints": 14343,
+      "message": "Song 'FMP_C7_Audio_Beatles_ActNaturally_63_3_73_4' added successfully with 14343 fingerprints"
+    },
+    {
+      "success": true,
       "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Happy Birthday To You.mp3",
       "song_name": "Happy_Birthday_To_You",
       "fingerprints": 74456,
       "message": "Song 'Happy_Birthday_To_You' added successfully with 74456 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Muộn Màng Là Từ Lúc.mp3",
+      "song_name": "Muo_n_Ma_ng_La_Tu_Lu_c",
+      "fingerprints": 455230,
+      "message": "Song 'Muo_n_Ma_ng_La_Tu_Lu_c' added successfully with 455230 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Nếu Anh Đi.mp3",
+      "song_name": "Ne_u_Anh_Đi",
+      "fingerprints": 451539,
+      "message": "Song 'Ne_u_Anh_Đi' added successfully with 451539 fingerprints"
+    },
+    {
+      "success": true,
+      "file": "/Users/binhpham/Documents/Study/MSE/Xử lý tín hiệu số/FA25_MSA35_DSP501_G8_Final Projec/data/songs/Như Một Giấc Mơ.mp3",
+      "song_name": "Nhu_Mo_t_Gia_c_Mo",
+      "fingerprints": 416016,
+      "message": "Song 'Nhu_Mo_t_Gia_c_Mo' added successfully with 416016 fingerprints"
     },
     {
       "success": true,

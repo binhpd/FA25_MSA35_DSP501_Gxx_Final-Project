@@ -228,11 +228,6 @@ class AudioFingerprinter:
         # Compute spectrogram
         spectrogram, times, frequencies = self._compute_spectrogram(audio)
         
-        # Find peaks
-        # peaks from _find_peaks returns (time_idx, freq_idx) tuples
-        # where indices refer to spectrogram[time_idx, freq_idx]
-        # But scipy.stft returns (freq, time) shape, so we need to transpose
-        # Actually, _find_peaks uses np.where which returns (row, col) = (time, freq)
         peaks = self._find_peaks(spectrogram)
         
         fingerprints = []
@@ -248,8 +243,7 @@ class AudioFingerprinter:
             anchor_time = times[anchor_time_idx]
             anchor_freq = frequencies[anchor_freq_idx]
             
-            # Find target points in the target zone (1-5 seconds ahead)
-            # spectrogram shape is (freq_bins, time_bins)
+
             time_min = anchor_time_idx + self.target_zone_bin_min
             time_max = min(anchor_time_idx + self.target_zone_bin_max, len(times))
             
@@ -289,14 +283,12 @@ class AudioFingerprinter:
         Returns:
             List of fingerprints
         """
-        logger.info(f"🔍 [DSP] Processing file: {file_path}")
         try:
             audio = self.load_audio(file_path)
-            logger.info(f"🔑 [DSP] Generating fingerprints from audio (length: {len(audio)} samples)...")
             fingerprints = self.generate_fingerprints(audio)
-            logger.info(f"✅ [DSP] Generated {len(fingerprints)} fingerprints")
+            logger.info(f"[DSP] Generated {len(fingerprints)} fingerprints")
             return fingerprints
         except Exception as e:
-            logger.error(f"❌ [DSP] Error processing file {file_path}: {str(e)}", exc_info=True)
+            logger.error(f"[DSP] Error processing file {file_path}: {str(e)}", exc_info=True)
             raise
 

@@ -11,9 +11,9 @@ class ApiConstants {
   // - For Android Emulator: use ApiConfig.getBaseUrl()
   // - For Physical Device: use ApiConfig.getPhysicalDeviceUrl()
   // 
-  // Current setting: Physical Device (192.168.1.5)
-  // This getter calls ApiConfig.getPhysicalDeviceUrl() which returns http://192.168.1.5:8000
-  static String get baseUrl => ApiConfig.getPhysicalDeviceUrl(); // ← Used in injection_container.dart
+  // Current setting: Physical Device (192.168.1.216)
+  // This getter calls ApiConfig.getPhysicalDeviceUrl() which returns http://192.168.1.216:8000
+  static String get baseUrl => ApiConfig.getPhysicalDeviceUrl(); // ← Used for Android physical device
   
   // To use Android Emulator instead, change to:
   // static String get baseUrl => ApiConfig.getBaseUrl();

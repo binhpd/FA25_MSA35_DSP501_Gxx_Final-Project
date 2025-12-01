@@ -1,8 +1,3 @@
-"""
-Persistent Database for Audio Fingerprints using SQLite
-Stores and queries fingerprints for music recognition
-"""
-
 import sqlite3
 import os
 from collections import Counter, defaultdict
@@ -14,17 +9,8 @@ logger = logging.getLogger(__name__)
 
 
 class PersistentDB:
-    """
-    Persistent database for storing and querying audio fingerprints using SQLite
-    """
     
     def __init__(self, db_path: str = "music_recognition.db"):
-        """
-        Initialize the database
-        
-        Args:
-            db_path: Path to SQLite database file
-        """
         self.db_path = db_path
         self.conn = None
         self._init_database()

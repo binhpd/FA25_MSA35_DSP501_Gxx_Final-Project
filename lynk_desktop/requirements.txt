@@ -1,0 +1,13 @@
+# Lynk Desktop - Python Dependencies
+
+# Audio recording
+pyaudio==0.2.14
+
+# HTTP requests
+requests==2.31.0
+
+# GUI (tkinter is included with Python, but we list it for reference)
+# tkinter - Built-in with Python 3.x
+
+
+

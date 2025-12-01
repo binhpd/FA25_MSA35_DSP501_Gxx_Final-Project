@@ -14,10 +14,10 @@ class ApiConfig {
 
   // For physical devices, you need to set your computer's IP address
   // Get your IP: 
-  // - macOS/Linux: ifconfig | grep "inet " | grep -v 127.0.0.1
+  // - macOS/Linux: ipconfig getifaddr en0
   // - Windows: ipconfig
-  // Current IP: 192.168.1.5 (updated automatically)
-  static const String physicalDeviceHost = '192.168.1.5';
+  // Current IP: 192.168.1.216 (updated for Android physical device)
+  static const String physicalDeviceHost = '192.168.1.216';
 
   /// Get the base URL based on the current platform
   static String getBaseUrl({int? port, String? customHost}) {
@@ -33,9 +33,7 @@ class ApiConfig {
       // Web platform
       return 'http://localhost:$apiPort';
     } else if (Platform.isAndroid) {
-      // Check if running on emulator or physical device
-      // Note: This is a simple check. For more accurate detection,
-      // you might need to use platform-specific code
+      // Android Emulator uses 10.0.2.2 to access host machine
       return 'http://$androidEmulatorHost:$apiPort';
     } else if (Platform.isIOS) {
       // iOS Simulator
